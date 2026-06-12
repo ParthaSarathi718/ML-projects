@@ -16,7 +16,7 @@ with open(model_path, "rb") as file:
 
 # Title
 
-st.title("Student Performance Predictor")
+st.title("🎓 Student Performance Predictor v1")
 
 st.write("Enter student details below:")
 
