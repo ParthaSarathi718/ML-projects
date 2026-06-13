@@ -22,6 +22,6 @@ A Machine Learning project that predicts iris flower species using flower measur
 
 * K-Nearest Neighbors (KNN)
 
-## Live Demo
 
-(Add Streamlit link here later)
+🚀 Live Demo
+https://ml-projects-stdtl9v94vseokaoatvlun.streamlit.app/
