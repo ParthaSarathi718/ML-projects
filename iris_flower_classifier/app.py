@@ -120,14 +120,17 @@ if st.button("Predict Species"):
     )
 
     # Show flower image
+    
+    image_path = BASE_DIR / "images"
+    
     if predicted_species == "Setosa":
-        st.image("images/setosa.jpg", width=300)
-
+        st.image(str(image_path / "setosa.jpg"), width=300)
+    
     elif predicted_species == "Versicolor":
-        st.image("images/versicolor.jpg", width=300)
-
+        st.image(str(image_path / "versicolor.jpg"), width=300)
+    
     else:
-        st.image("images/virginica.jpg", width=300)
+        st.image(str(image_path / "virginica.jpg"), width=300)
 
 # Footer
 st.markdown("---")
